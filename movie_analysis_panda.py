@@ -11,3 +11,9 @@ print(type(movies))
 movies.head(15)
 
 
+# Timestamps represent seconds since midnight Coordinated Universal Time (UTC) of January 1, 1970
+tags = pd.read_csv('./movielens/tags.csv', sep=',')
+tags.head()
+
+
+
