@@ -12,8 +12,10 @@ movies.head(15)
 
 
 # Timestamps represent seconds since midnight Coordinated Universal Time (UTC) of January 1, 1970
+#files are: tags, ratings, 
+#.head func by default shows first "5" rows
 tags = pd.read_csv('./movielens/tags.csv', sep=',')
 tags.head()
 
-
-
+ratings = pd.read_csv('./movielens/ratings.csv', sep=',', parse_dates=['timestamp'])
+ratings.head()
