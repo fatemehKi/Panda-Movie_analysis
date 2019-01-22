@@ -19,3 +19,6 @@ tags.head()
 
 ratings = pd.read_csv('./movielens/ratings.csv', sep=',', parse_dates=['timestamp'])
 ratings.head()
+
+#showing the shapes of movie matrics
+movies.shape
