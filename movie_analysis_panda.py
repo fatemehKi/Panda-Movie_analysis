@@ -9,3 +9,5 @@ import pandas as pd
 movies = pd.read_csv('./movielens/movies.csv', sep=',')
 print(type(movies))
 movies.head(15)
+
+
